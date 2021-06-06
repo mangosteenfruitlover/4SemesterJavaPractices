@@ -1,0 +1,11 @@
+8821 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+8833 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+9331 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12846 [main] INFO  o.s.s.w.DefaultSecurityFilterChain Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@536f389, org.springframework.security.web.context.SecurityContextPersistenceFilter@f3c27e9, org.springframework.security.web.header.HeaderWriterFilter@701c413, org.springframework.security.web.authentication.logout.LogoutFilter@162a5c4c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@304cad3a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6f5f892c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@44ec6637, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2b33f7a0, org.springframework.security.web.session.SessionManagementFilter@280e4390, org.springframework.security.web.access.ExceptionTranslationFilter@6821d4e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e7dd504]
+16002 [main] INFO  o.s.b.a.e.web.EndpointLinksResolver Exposing 1 endpoint(s) beneath base path '/actuator'
+16112 [main] INFO  o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+16242 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+16264 [main] INFO  o.s.s.a.ScheduledAnnotationBeanPostProcessor No TaskScheduler/ScheduledExecutorService bean found for scheduled processing
+16282 [main] INFO  main.Application Started Application in 15.41 seconds (JVM running for 16.793)
+16296 [main] INFO  o.s.b.a.ApplicationAvailabilityBean Application availability state LivenessState changed to CORRECT
+16299 [main] INFO  o.s.b.a.ApplicationAvailabilityBean Application availability state ReadinessState changed to ACCEPTING_TRAFFIC
