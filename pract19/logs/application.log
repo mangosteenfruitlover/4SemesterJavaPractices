@@ -1,0 +1,20 @@
+9439 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+9454 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+11497 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11857 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+12867 [main] INFO  o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+12913 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+12937 [main] INFO  main.Application Started Application in 12.262 seconds (JVM running for 13.492)
+25912 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] Initializing Spring DispatcherServlet 'dispatcherServlet'
+25912 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Initializing Servlet 'dispatcherServlet'
+25914 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet Completed initialization in 2 ms
+26261 [http-nio-8080-exec-1] INFO  main.services.UniversityService Save university with value University{id=null, name='University2', creationDate='06.06.2020', students=[]}
+26910 [http-nio-8080-exec-3] INFO  main.services.UniversityService Save university with value University{id=null, name='University3', creationDate='06.06.2021', students=[]}
+27033 [http-nio-8080-exec-4] INFO  main.services.UniversityService Get university with id 1
+27112 [http-nio-8080-exec-4] INFO  main.services.StudentService Save student Student{id=null, firstName='Aleksey', middleName='Ivanovich', lastName='Ivanov', university=University{id=1, name='University2', creationDate='06.06.2020', students=[]}}
+27225 [http-nio-8080-exec-5] INFO  main.services.UniversityService Get university with id 2
+27228 [http-nio-8080-exec-5] INFO  main.services.StudentService Save student Student{id=null, firstName='Lesha', middleName='Ivanovich', lastName='Petrov', university=University{id=2, name='University3', creationDate='06.06.2021', students=[]}}
+27310 [http-nio-8080-exec-6] INFO  main.services.UniversityService Find all universities by creationDate with value 06.06.2020
+27810 [http-nio-8080-exec-7] INFO  main.services.UniversityService Get all universities sorted by field name
+27886 [http-nio-8080-exec-8] INFO  main.services.StudentService Find all students by firstName with value Lesha
+27989 [http-nio-8080-exec-9] INFO  main.services.StudentService Get all students sorted by field lastName
