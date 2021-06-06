@@ -1,0 +1,8 @@
+7305 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+7338 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean Initialized JPA EntityManagerFactory for persistence unit 'default'
+8758 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+9093 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor Initializing ExecutorService 'applicationTaskExecutor'
+9742 [main] INFO  o.s.s.c.ThreadPoolTaskScheduler Initializing ExecutorService 'taskScheduler'
+9857 [main] INFO  o.a.coyote.http11.Http11NioProtocol Starting ProtocolHandler ["http-nio-8080"]
+9885 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer Tomcat started on port(s): 8080 (http) with context path ''
+9903 [main] INFO  main.Application Started Application in 9.301 seconds (JVM running for 10.352)

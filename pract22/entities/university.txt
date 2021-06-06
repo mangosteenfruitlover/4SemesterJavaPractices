@@ -1,0 +1,1 @@
+[University{id=1, name='University2', creationDate='06.06.2020', students=[Student{id=1, firstName='Aleksey', middleName='Ivanovich', lastName='Ivanov'}]}, University{id=4, name='University2', creationDate='06.06.2020', students=[]}]
